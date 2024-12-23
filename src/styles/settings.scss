@@ -1,0 +1,17 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+@use "vuetify/settings" with (
+  $color-pack: false,
+
+  $button-border-radius: 20px,
+
+  $card-elevation: 0,
+  $card-border-radius: 20px,
+  $card-actions-min-height: 55px,
+  $card-actions-flex: initial
+);
